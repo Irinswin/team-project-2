@@ -53,12 +53,14 @@ ul, ul li {
 @media (max-width: 767px) {
   .container {
     width: 100%;
+    height: -moz-fit-content;
     height: fit-content;
   }
   .container__who-are-we {
     display: flex;
     flex-direction: column;
-    column-gap: 20px;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
     flex-basis: fit-content;
   }
   .container__who-are-we-slider {
@@ -126,6 +128,7 @@ ul, ul li {
 }
 @media (max-width: 576px) {
   .block__our-promise-box {
+    width: -moz-fit-content;
     width: fit-content;
     height: auto;
   }
@@ -910,7 +913,8 @@ ul, ul li {
 
 .footer__socials-list {
   display: flex;
-  column-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
   justify-content: center;
 }
 
@@ -971,6 +975,16 @@ input {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background-color: #fff;
   transition: 0.3s;
+}
+
+input::-moz-placeholder {
+  color: #575445;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  padding-left: 21px;
+  text-align: start;
 }
 
 input::placeholder {
@@ -1142,6 +1156,4 @@ input::placeholder {
   width: 80vw;
   height: 60vh;
   background: #626262;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
