@@ -176,7 +176,7 @@ ul, ul li {
   header .inform-container {
     max-width: 100vw;
     height: 80vh;
-    background: url(/assets/images/Header.png) no-repeat;
+    background: url(../images/Header.png) no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
