@@ -1,7 +1,6 @@
 .shop {
     max-width: 100%;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .shop__img {
@@ -56,7 +55,6 @@
     height: 393px;
     background-color:#375C58;
     background-image:url('./../images/rectangle.png');
-    margin-bottom: 100px;
 }
 
 .shop__container-text {
@@ -111,6 +109,7 @@
     border: none;
     background: $white;
     margin-top: 20px;
+    cursor: pointer;
         
     &:hover{
         transform: translateY(-3px);

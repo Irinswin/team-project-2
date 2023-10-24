@@ -22,7 +22,7 @@ ymaps.ready(init);
             // {preset: 'islands#redIcon'},
             {
                 iconLayout: 'default#image',
-                iconImageHref: '/assets/images/location-pin.svg',
+                iconImageHref: '../assets/images/location-pin.svg',
                 icon_imagesize: [40, 40],
                 iconImageOffset: [-20, -40],
             }
